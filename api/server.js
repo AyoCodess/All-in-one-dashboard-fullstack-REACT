@@ -53,8 +53,9 @@ app.delete('/task/delete/:id', async (req, res) => {
 app.put('/task/update/:id', async (req, res) => {
   const task = await Task.findById(req.params.id);
 
-  task.name = req.body.name;
+  task.title = req.body.title;
   task.task = req.body.task;
+  task.status = req.body.status;
 
   task.save();
 
