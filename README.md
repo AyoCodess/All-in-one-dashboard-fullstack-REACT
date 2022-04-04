@@ -136,7 +136,7 @@ The hosted version will be front-end only. For that implementation, I have used 
 
 1. Move module API call functions in App.js into separate files.
 2. Enable user to bulk upload photos.
-3. Consider Context API or Redux if app grows to manage state more efficiently. There was no need to use context at the apps current complexity.
+3. Consider Context API or Redux if the app grows to manage state more efficiently. There was no need to use context at the apps current complexity.
 
 ### My overall experience
 
