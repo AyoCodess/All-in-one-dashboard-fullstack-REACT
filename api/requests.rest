@@ -1,0 +1,31 @@
+GET http://localhost:3001/all-tasks HTTP/1.1
+
+###
+
+POST http://localhost:3001/task/new
+Content-Type: application/json
+
+{
+
+    "title": "mitch",
+	"task": "book tennis and football for work"
+
+}
+
+###
+
+DELETE http://localhost:3001/task/delete/62487b63f3f0747c82fe7a0b
+
+
+###
+
+PUT http://localhost:3001/task/update/6242ff39e6856f8702b950c5
+Content-Type: application/json
+
+{
+    "title":"ayo",
+	"task": "Go Shopping for Milk 22"
+}
+
+
+###
