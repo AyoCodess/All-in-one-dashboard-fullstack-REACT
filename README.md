@@ -12,6 +12,10 @@ cd api
 npm start
 ```
 
+### About
+
+This was a 5 day challenge for a recruitment process. Some of the tasks had problems built into them as a test for problem solving. I completed this project in 4.5 days.
+
 ### Important Note:
 
 To run this project locally, the auth0 authentication URL needs to be changed to http://ocalhost:3000.
@@ -149,5 +153,3 @@ I particularly enjoyed the refactoring process as I like to keep code 'tight' an
 I hit some roadblocks around authentication. In the end, I developed something that works, but the user experience could be more seamless. That said, having zero experience with auth0 and limited knowledge of react-router (I only used it for basic routing in past projects), I feel proud of what I have accomplished.
 
 There are many aspects of this project that could be improved. Yet I hope I have sufficiently demonstrated my dedication to attempting the most optimal solutions (that the circumstances allow) with this assignment.
-
-Thank you for the opportunity. I would be honoured to contribute to your team with my wellspring of ideas, leadership skills, adaptability, and passion for providing software that helps the vulnerable among us - something I am already invested in personally.
